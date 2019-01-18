@@ -11,6 +11,7 @@
 		153E996521F1F60100B9B47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153E996421F1F60100B9B47C /* Assets.xcassets */; };
 		153E997321F1F60100B9B47C /* cocoaheadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E997221F1F60100B9B47C /* cocoaheadsTests.swift */; };
 		153E997E21F1F60100B9B47C /* cocoaheadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E997D21F1F60100B9B47C /* cocoaheadsUITests.swift */; };
+		153E999621F1FCE400B9B47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153E999521F1FCE400B9B47C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		153E997921F1F60100B9B47C /* cocoaheadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoaheadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		153E997D21F1F60100B9B47C /* cocoaheadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocoaheadsUITests.swift; sourceTree = "<group>"; };
 		153E997F21F1F60100B9B47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153E999521F1FCE400B9B47C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		153E999221F1FA4800B9B47C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				153E999721F1FCE700B9B47C /* Launch */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -146,6 +149,14 @@
 				153E996421F1F60100B9B47C /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		153E999721F1FCE700B9B47C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				153E999521F1FCE400B9B47C /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				153E996521F1F60100B9B47C /* Assets.xcassets in Resources */,
+				153E999621F1FCE400B9B47C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ios.cocoaheads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ios.cocoaheads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
