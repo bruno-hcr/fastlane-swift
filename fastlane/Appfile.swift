@@ -1,5 +1,5 @@
 var appIdentifier: String { return "[[Cocoaheads]]" } // The bundle identifier of your app
-var appleID: String { return "[[bruno-hcr@hotmail.com]]" } // Your Apple email address
+var appleID: String { return "[[cocoaheads@cocoaheads.org]]" } // Your Apple email address
 
 
 
