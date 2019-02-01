@@ -12,7 +12,7 @@ class Fastfile: LaneFile {
 	func testLane() {
         desc("Run Build and Tests")
         cocoapods()
-        scan(scheme: "cocoaheads")
+        scan(workspace: "cocoaheads", scheme: "cocoaheads")
 	}
 
     func betaLane() {
