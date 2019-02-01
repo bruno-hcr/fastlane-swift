@@ -11,6 +11,7 @@ import Foundation
 class Fastfile: LaneFile {
 	func testLane() {
         desc("Run Build and Tests")
+        cocoapods()
 		scan()
 	}
 
