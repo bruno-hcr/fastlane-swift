@@ -1,0 +1,6 @@
+framework module Pods_cocoaheadsUITests {
+  umbrella header "Pods-cocoaheadsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
